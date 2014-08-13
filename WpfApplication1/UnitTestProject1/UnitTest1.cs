@@ -15,6 +15,8 @@ namespace UnitTestProject1
             Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject pobject = new PrivateObject(appl);
             Button btn = (Button)pobject.GetFieldOrProperty("btn1");
             Assert.IsNotNull(btn);
+                      
+
         }
     }
 }
