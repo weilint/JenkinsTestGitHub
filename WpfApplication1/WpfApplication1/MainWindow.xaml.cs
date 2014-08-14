@@ -31,7 +31,7 @@ namespace WpfApplication1
             textbox1.Text = "hello1236789";
             MessageBox.Show("bye123456789");
             MessageBox.Show("hi201408");
-            textbox1.Text = "bye";
+            textbox1.Text = "bye123";
         }
     }
 }
