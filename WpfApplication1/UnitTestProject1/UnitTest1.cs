@@ -14,9 +14,12 @@ namespace UnitTestProject1
             MainWindow appl = new MainWindow();
             Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject pobject = new PrivateObject(appl);
             Button btn = (Button)pobject.GetFieldOrProperty("btn1");
-            Assert.IsNotNull(btn);
-                      
+            Assert.IsNotNull(btn);  
+        }
 
+        public void TestMethod2()
+        {
+            Assert.IsTrue(1 + 1 == 2);
         }
     }
 }
