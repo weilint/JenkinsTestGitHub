@@ -27,7 +27,7 @@ namespace WpfApplication1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("hello1234");
+            MessageBox.Show("hello1");
             textbox1.Text = "hello1236789";
             MessageBox.Show("bye123456789");
             MessageBox.Show("hi201408");
