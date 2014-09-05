@@ -30,15 +30,20 @@ namespace WpfApplication1
             MessageBox.Show("siannnnnn");
             textbox1.Text = "hello1236789";
             MessageBox.Show("bye123456789");
+<<<<<<< HEAD
+
             MessageBox.Show("hi201408");
             textbox1.Text = "bye";
 
             MessageBox.Show("hi2014082343");
             textbox1.Text = "bye123456789";
+
+=======
             MessageBox.Show("hi201408");
             textbox1.Text = "bye";
             MessageBox.Show("hi2014082343");
             textbox1.Text = "bye123456789";
+>>>>>>> origin/master
         }
     }
 }
